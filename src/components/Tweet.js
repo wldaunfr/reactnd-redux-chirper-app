@@ -28,8 +28,6 @@ class Tweet extends Component {
       return <p>This Tweet doesn't exist.</p>;
     }
 
-    console.log(this.props);
-
     const {
       name, avatar, timestamp, text, hasLiked, likes, replies, parent,
     } = tweet;
